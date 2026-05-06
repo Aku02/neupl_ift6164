@@ -2,6 +2,11 @@
 
 JAX code for NeuPL-style meta-training on **JaxMARL** multi-agent Brax tasks plus Cartesian toy games for ablations.
 
+## Dependencies
+
+- **Cartesian games only**: `torch`, `numpy`.
+- **JaxMARL / MA-Brax (MuJoCo-based envs)**: install per [FLAIROx/JaxMARL](https://github.com/FLAIROx/JaxMARL) (JAX, Brax, and related stack).
+
 ## JaxMARL MA-Brax runs
 
 
