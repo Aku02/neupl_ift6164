@@ -1,0 +1,203 @@
+/home/volodymyr/uv_isaaclab_test/env_isaaclab/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py:13: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+wandb: Currently logged in as: nomadflamingo (ndfl-uw). Use `wandb login --relogin` to force relogin
+/home/volodymyr/uv_isaaclab_test/env_isaaclab/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py:13: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+wandb: wandb version 0.26.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.21
+wandb: Run data is saved locally in /home/volodymyr/a_working/diffusion_playground/neupl/wandb/run-20260430_143848-nh1oycij
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run diffusion_psro_nash_s42
+wandb: ⭐️ View project at https://wandb.ai/ndfl-uw/neupl-cartesian
+wandb: 🚀 View run at https://wandb.ai/ndfl-uw/neupl-cartesian/runs/nh1oycij
+
+============================================================
+  NeuPL (psro_nash, N=64, model=diffusion)
+============================================================
+  Discretized Nash value: 0.0000 | row support=2 bins | col support=2 bins
+  Saved: cartesian_sweep_results/diffusion_jpsro/cartesian_discretized_nash.png
+  Anchor slot 0: x=0.809, y=0.147
+  [psro_nash iter 50/300]
+  [psro_nash iter 100/300]
+  [psro_nash iter 150/300]
+  [psro_nash iter 200/300]
+  [psro_nash iter 250/300]
+  [psro_nash iter 300/300]
+
+  Final slot summaries for [NeuPL-psro_nash-diffusion]:
+    slot 0: x=0.8094, y=0.1472, value=0.0018
+    slot 1: x=0.7676, y=-1.0704, value=-0.7409
+    slot 2: x=1.1471, y=-1.0455, value=0.9941
+    slot 3: x=-0.5222, y=-2.9726, value=0.8742
+    slot 4: x=-2.6237, y=1.0289, value=0.9983
+    slot 5: x=-0.5276, y=-1.0180, value=0.9961
+    slot 6: x=1.5728, y=1.0323, value=0.9988
+    slot 7: x=1.5651, y=1.0385, value=0.9994
+    slot 8: x=-0.0325, y=-1.0465, value=-0.0093
+    slot 9: x=1.5683, y=1.0519, value=0.9998
+    slot 10: x=-0.4398, y=0.8683, value=0.9864
+    slot 11: x=1.5706, y=1.0602, value=0.9992
+    slot 12: x=1.5720, y=1.0490, value=0.9996
+    slot 13: x=1.5704, y=1.0528, value=0.9998
+    slot 14: x=-0.5186, y=-1.0524, value=0.9997
+    slot 15: x=-0.5169, y=-1.0421, value=0.9995
+    slot 16: x=1.2328, y=-1.0538, value=0.9968
+    slot 17: x=1.5640, y=-1.0730, value=0.9967
+    slot 18: x=-0.5237, y=-1.0264, value=0.9986
+    slot 19: x=-0.5246, y=1.0628, value=0.9988
+    slot 20: x=-1.9936, y=1.0427, value=0.9909
+    slot 21: x=-0.5244, y=-1.0470, value=0.9997
+    slot 22: x=1.5710, y=1.0529, value=0.9985
+    slot 23: x=-0.5130, y=1.0833, value=0.9899
+    slot 24: x=-0.5266, y=0.9464, value=0.9992
+    slot 25: x=-2.1597, y=-1.0489, value=0.9907
+    slot 26: x=-1.0779, y=1.0435, value=0.9924
+    slot 27: x=-0.3299, y=1.0469, value=-0.2601
+    slot 28: x=1.5690, y=-1.0460, value=0.9992
+    slot 29: x=-0.5222, y=1.0544, value=0.9986
+    slot 30: x=1.5701, y=-1.0470, value=0.9995
+    slot 31: x=-0.5300, y=-0.4225, value=-0.9944
+    slot 32: x=1.5717, y=2.0946, value=-1.0000
+    slot 33: x=1.5707, y=-2.9630, value=0.8598
+    slot 34: x=0.9322, y=2.0907, value=-0.9993
+    slot 35: x=-0.5234, y=1.0411, value=0.9980
+    slot 36: x=1.5760, y=0.0006, value=-0.9981
+    slot 37: x=-0.5235, y=0.0038, value=-0.9996
+    slot 38: x=-0.5055, y=-0.0001, value=-0.9979
+    slot 39: x=-0.5227, y=0.0098, value=-0.9992
+    slot 40: x=-2.6075, y=-2.0936, value=-0.9976
+    slot 41: x=-0.5236, y=-2.0950, value=-0.9998
+    slot 42: x=1.5690, y=-0.0007, value=-0.9998
+    slot 43: x=-0.5248, y=2.0898, value=-0.9998
+    slot 44: x=2.5717, y=1.0471, value=-0.9877
+    slot 45: x=-0.5141, y=-0.0141, value=-0.9958
+    slot 46: x=1.5541, y=2.1665, value=-0.9754
+    slot 47: x=1.9510, y=0.0061, value=-0.4168
+    slot 48: x=-0.5278, y=0.0068, value=-0.9996
+    slot 49: x=-0.5241, y=-2.0931, value=-1.0000
+    slot 50: x=1.8561, y=2.0922, value=-0.6553
+    slot 51: x=-1.7692, y=0.0031, value=0.7888
+    slot 52: x=-1.4246, y=-2.0884, value=0.9049
+    slot 53: x=-1.5421, y=2.8906, value=-0.7257
+    slot 54: x=-1.5696, y=0.0004, value=0.9999
+    slot 55: x=-1.5200, y=0.0038, value=0.9879
+    slot 56: x=-1.5543, y=2.0978, value=0.9981
+    slot 57: x=0.5207, y=0.4629, value=0.1798
+    slot 58: x=0.5010, y=-1.0487, value=-0.9883
+    slot 59: x=2.9910, y=-0.3765, value=0.4359
+    slot 60: x=-1.5678, y=-0.0047, value=0.9998
+    slot 61: x=-1.5633, y=-2.0942, value=0.9927
+    slot 62: x=2.6176, y=2.9860, value=-0.8842
+    slot 63: x=0.7242, y=2.1041, value=0.8238
+  Saved: cartesian_sweep_results/diffusion_jpsro/cartesian_adaptive_landscape.png
+  Saved: cartesian_sweep_results/diffusion_jpsro/cartesian_adaptive_detail.png
+  Saved: cartesian_sweep_results/diffusion_jpsro/cartesian_adaptive_density.png
+
+  Final meta-mixture evaluation:
+    profile value      = 0.0000
+    row BR value       = 0.0001
+    col BR value       = -0.0000
+    row exploitability = 0.0001
+    col exploitability = 0.0000
+    exploitability     = 0.0001
+
+  Diversity metrics:
+    effective slots    = row 3, col 3
+    meta-mix entropy   = row 1.0176, col 0.9331
+    pairwise dist      = row 1.2478, col 0.9094
+    weighted std       = row 0.7277, col 0.5234
+
+  Nash-closeness metrics:
+    value gap |v - v*| = 0.0000
+    row density L1     = 1.9761
+    col density L1     = 1.9750
+    exploitability     = 0.0001
+
+  Mode discovery (row):
+    true Nash modes    = 1
+    learned modes      = 2
+    optimal modes      = 0
+    suboptimal modes   = 2
+    precision          = 0.0000
+    recall             = 0.0000
+  Mode discovery (col):
+    true Nash modes    = 1
+    learned modes      = 2
+    optimal modes      = 0
+    suboptimal modes   = 2
+    precision          = 0.0000
+    recall             = 0.0000
+  Saved: cartesian_sweep_results/diffusion_jpsro/run_summary.npz
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.005 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: \ 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: | 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: / 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb: - 0.007 MB of 0.007 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:        diversity/col_entropy ▁
+wandb:  diversity/col_pairwise_dist ▁
+wandb:   diversity/col_weighted_std ▁
+wandb:    diversity/n_effective_col ▁
+wandb:    diversity/n_effective_row ▁
+wandb:        diversity/row_entropy ▁
+wandb:  diversity/row_pairwise_dist ▁
+wandb:   diversity/row_weighted_std ▁
+wandb:         exploit/col_br_value ▁
+wandb:              exploit/col_gap ▁
+wandb:       exploit/exploitability ▁
+wandb:        exploit/profile_value ▁
+wandb:         exploit/row_br_value ▁
+wandb:              exploit/row_gap ▁
+wandb:     modes_col/mode_precision ▁
+wandb:        modes_col/mode_recall ▁
+wandb:    modes_col/n_learned_modes ▁
+wandb:    modes_col/n_optimal_modes ▁
+wandb: modes_col/n_suboptimal_modes ▁
+wandb:       modes_col/n_true_modes ▁
+wandb:     modes_row/mode_precision ▁
+wandb:        modes_row/mode_recall ▁
+wandb:    modes_row/n_learned_modes ▁
+wandb:    modes_row/n_optimal_modes ▁
+wandb: modes_row/n_suboptimal_modes ▁
+wandb:       modes_row/n_true_modes ▁
+wandb:          nash/col_density_l1 ▁
+wandb:          nash/exploitability ▁
+wandb:          nash/nash_value_gap ▁
+wandb:          nash/row_density_l1 ▁
+wandb: 
+wandb: Run summary:
+wandb:        diversity/col_entropy 0.9331
+wandb:  diversity/col_pairwise_dist 0.90936
+wandb:   diversity/col_weighted_std 0.52342
+wandb:    diversity/n_effective_col 3.0
+wandb:    diversity/n_effective_row 3.0
+wandb:        diversity/row_entropy 1.01755
+wandb:  diversity/row_pairwise_dist 1.24775
+wandb:   diversity/row_weighted_std 0.72769
+wandb:         exploit/col_br_value -0.0
+wandb:              exploit/col_gap 0.0
+wandb:       exploit/exploitability 0.00012
+wandb:        exploit/profile_value 0.0
+wandb:         exploit/row_br_value 0.00012
+wandb:              exploit/row_gap 0.00012
+wandb:     modes_col/mode_precision 0.0
+wandb:        modes_col/mode_recall 0.0
+wandb:    modes_col/n_learned_modes 2.0
+wandb:    modes_col/n_optimal_modes 0.0
+wandb: modes_col/n_suboptimal_modes 2.0
+wandb:       modes_col/n_true_modes 1.0
+wandb:     modes_row/mode_precision 0.0
+wandb:        modes_row/mode_recall 0.0
+wandb:    modes_row/n_learned_modes 2.0
+wandb:    modes_row/n_optimal_modes 0.0
+wandb: modes_row/n_suboptimal_modes 2.0
+wandb:       modes_row/n_true_modes 1.0
+wandb:          nash/col_density_l1 1.97499
+wandb:          nash/exploitability 0.00012
+wandb:          nash/nash_value_gap 0.0
+wandb:          nash/row_density_l1 1.9761
+wandb: 
+wandb: Synced diffusion_psro_nash_s42: https://wandb.ai/ndfl-uw/neupl-cartesian/runs/nh1oycij
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260430_143848-nh1oycij/logs
+
+Done! All plots saved to: cartesian_sweep_results/diffusion_jpsro/
